@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
 /* Toggle sidebar  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
     
-    const openNav = () => { document.getElementById("mySidepanel").style.width = "150px"; }
+    const openNav = () => { document.getElementById("mySidepanel").style.width = "250px"; }
 
     return (
         <header>
