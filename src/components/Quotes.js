@@ -21,8 +21,8 @@ const Quotes = () => {
         fetch('https://picsum.photos/v2/list')
             .then((res) => res.json())
             .then((data) => {
-                 setImage(data[Math.floor(Math.random() * 30)].download_url)
-                 document.querySelector('.carousel-inner').style.background = `url(${image})`
+                setImage(data[Math.floor(Math.random() * 30)].download_url)
+                document.querySelector('.carousel-inner').style.background = `url(${image})`
 
                 // let elt = availableQuote;
                 // elt.push({
