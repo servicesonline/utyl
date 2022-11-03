@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
 /* Toggle sidebar  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
     
-    const openNav = () => { document.getElementById("mySidepanel").style.width = "250px"; }
+    const openNav = () => { document.getElementById("mySidepanel").style.width = "150px"; }
 
     return (
         <header>
@@ -18,8 +18,8 @@ const Header = () => {
                     <div className="col-sm-9">
                        <ul className="email text_align_right">
                           <li className="d_none"> <a href="#"><i className="fa fa-map-marker" aria-hidden="true"></i>Location</a></li>
-                          <li className="d_none"> <a href="#"><i className="fa fa-phone" aria-hidden="true"></i>+71  1234567890</a></li>
-                          <li className="d_none"> <a href="#"><i className="fa fa-envelope" aria-hidden="true"></i>demo@gmail.com</a></li>
+                          <li className="d_none"> <a href="#"><i className="fa fa-phone" aria-hidden="true"></i>+237  693092801</a></li>
+                          <li className="d_none"> <a href="#"><i className="fa fa-envelope" aria-hidden="true"></i>ulrichkelkun001@gmail.com</a></li>
                           <li className="d_none"> <a href="#">Login <i className="fa fa-user" aria-hidden="true"></i></a> </li>
                           <li className="d_none"><i className="fa fa-search" style={{cursor: 'pointer'}} aria-hidden="true"></i></li>
                           <li> <button className="openbtn" onClick={() => openNav()}><img src="images/menu_btn.png" /></button></li>

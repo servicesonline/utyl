@@ -79,9 +79,7 @@ const Quotes = () => {
                 <li data-target="#myCarousel" data-slide-to="2" id="data-slide-to-2"></li>
             </ol>
                 {/* (availableQuote < 10) ? setTimeout(getQuote, 10) : "" */}
-            {
-                console.log(availableQuote)
-            }
+            
             <div className="carousel-inner">
 
                 <div className="carousel-item active">

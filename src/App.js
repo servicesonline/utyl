@@ -19,9 +19,9 @@ function App() {
 
       <div id="mySidepanel" className="sidepanel">
         <a className="closebtn" onClick={() => closeNav()} style={{cursor:'pointer'}}>×</a>
-        <Link to="/" >Home</Link>
-        <Link to="countries" >Countries</Link>
-        <a href="contact.html">Contact</a>
+        <Link to="/" ><i className="fa fa-home" aria-hidden="true"></i> Home</Link>
+        <Link to="countries" ><i className="fa fa-flag" aria-hidden="true"></i> Countries</Link>
+        <a href="contact.html"><i className="fa fa-phone" aria-hidden="true"></i> Contact</a>
       </div>
 
 
